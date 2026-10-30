@@ -176,6 +176,14 @@ El archivo `.github/workflows/deploy.yml` se ejecuta en cada push a `main`:
 3. Compila la aplicación web con el `base-href` del repositorio.
 4. Publica `build/web` en GitHub Pages mediante `actions/deploy-pages`.
 
+### Configuración inicial de GitHub Pages
+
+La primera vez hay que habilitar Pages una sola vez:
+
+1. Abrir **Settings → Pages** del repositorio.
+2. En **Build and deployment**, seleccionar **Source: GitHub Actions**.
+3. Guardar y ejecutar de nuevo el workflow (o hacer un push a `main`).
+
 **Aplicación desplegada:** <https://juanesb0315.github.io/flutter_2/>
 
 ## Autor
